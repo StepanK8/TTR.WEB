@@ -85,19 +85,19 @@ export default {
 @import '@/style/swiperCustom.scss';
 .homeSlider{
     background-color: var(--lightBlue);
-    padding: 20px 0;
+    padding: 0px 0;
     width: 100%;
     height: 100%;
     margin: 0 auto;
     padding-top: 0px;
     &__swiper{
-        width: var(--maxW);
+        width: var(--width);
     }
     &__wrap{
         height: 100%;
         
         border-radius: 7px;
-        width: var(--maxW);
+        width: var(--width);
         margin: 0 auto;
         position: relative;
         &_loader{

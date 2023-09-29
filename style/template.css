@@ -1,0 +1,48 @@
+:root {
+  --black: "#191B1F";
+  --mainColor: #0A0A82;
+  --darkMainColor: #040443;
+  --hoverBlue: #2931B3;
+  --lightBlue: #585ddd;
+  --red: #EB0505;
+  --accentBlue: #DBDDFF;
+  --lightGray: #f3f6f8;
+  --darkGray: #8E9199;
+  --deepGray: #8A8B8E;
+  --gold: #FFD86E;
+  --warning: #C22F2F;
+  --shadow: 0 0 5px 5px rgba(0, 0, 0, 0.07);
+  --goldGradient: linear-gradient(93.19deg, #FFD86E 10.84%, #F0B357 27.5%, #F2CB6C 51.07%, #E6A94D 71.4%, #FFD86E 88.87%);
+  --mainFont: "ArialNova";
+  --mediaQuery1: 1351px;
+  --heightImageWrap: 440px;
+  --heightBetweenWraps: 30px;
+  --marginBottomTitle: 15px;
+  --width: 1500px;
+  --heightHeader: 200px;
+  --little: 16px;
+  --middle: 20px;
+  --big: 24px;
+}
+
+@media screen and (max-width: 1820px) {
+  * {
+    --width: 1100px;
+    --maxW: 90vw;
+    --heightImageWrap: 45vw;
+  }
+}
+@media screen and (max-width: 1500px) {
+  * {
+    --width: 1000px;
+    --maxW: 90vw;
+    --heightImageWrap: 45vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  * {
+    --maxW: 95vw;
+    --heightImageWrap: 45vw;
+    --middle: 16px;
+  }
+}/*# sourceMappingURL=template.css.map */
