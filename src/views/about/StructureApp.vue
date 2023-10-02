@@ -39,7 +39,7 @@ export default {
     }
 
     &__grid {
-        margin: 100px auto;
+        margin: 50px auto;
         max-width: 900px;
         display: grid;
         grid-template-columns: 1fr 1fr;

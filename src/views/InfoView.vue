@@ -174,7 +174,7 @@
                     <td>на сайте<br>ЕИАС</td>
                     <td><a
                             href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Plan&amp;sphere=GVS&amp;year=2023">Посмотреть</a>
-                        <br><a download href="/info/">Посмотреть</a>
+                        <br>
                     </td>
                 </tr>
                 <tr>
@@ -186,7 +186,7 @@
                     <td>на сайте<br>ЕИАС</td>
                     <td><a
                             href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Fact&amp;sphere=GVS&amp;year=2023">Посмотреть</a>
-                        <br><a download href="/info/">Посмотреть</a>
+                        <br>
                     </td>
                 </tr>
                 <tr>
@@ -197,7 +197,7 @@
                     <td>на сайте<br>ЕИАС</td>
                     <td><a
                             href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Services&amp;sphere=GVS&amp;year=2023">Посмотреть</a>&nbsp;
-                        <br><a download href="/info/">Посмотреть</a>
+                        <br>
                     </td>
                 </tr>
                 <tr>
@@ -260,7 +260,6 @@
         <p>Информация, подлежащая раскрытию в соответствии с утвержденными формами, размещается путем опубликования на
             официальном сайте ФАС России, в единой информационной аналитической системе (ЕИАС) на портале раскрытия
             информации <a href="http://ri.eias.ru/s">http://ri.eias.ru/</a><br></p>
-        <a download href="/info/">Посмотреть</a>
     </div>
 </template>
 <script>
@@ -272,7 +271,6 @@ export default {
     data() {
 
     },
-
 }
 </script>
 <style lang="scss"></style>

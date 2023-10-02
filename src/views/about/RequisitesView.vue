@@ -164,70 +164,70 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.req {
-    &__card {
-        display: flex;
+// .req {
+//     &__card {
+//         display: flex;
 
 
-        &_left {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+//         &_left {
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: center;
+//         }
 
-        &--background {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 30px;
-            box-shadow: 0 0 5px 5px #00000013;
-            display: block;
-            margin: 20px auto 40px;
-            width: 800px;
-        }
-    }
+//         &--background {
+//             background: #ffffff;
+//             padding: 30px;
+//             border-radius: 30px;
+//             box-shadow: 0 0 5px 5px #00000013;
+//             display: block;
+//             margin: 20px auto 40px;
+//             width: 800px;
+//         }
+//     }
 
-    &__title {
-        @include baseText(18px);
-        text-align: center;
-        color: rgb(0, 0, 0);
-        font-weight: 700;
-    }
+//     &__title {
+//         @include baseText(18px);
+//         text-align: center;
+//         color: rgb(0, 0, 0);
+//         font-weight: 700;
+//     }
 
-    &__text {
-        @include baseText(18px);
-        color: rgb(77, 77, 77);
-        text-align: center;
-        font-weight: 400;
-    }
+//     &__text {
+//         @include baseText(18px);
+//         color: rgb(77, 77, 77);
+//         text-align: center;
+//         font-weight: 400;
+//     }
 
-    &__row {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+//     &__row {
+//         padding: 10px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
 
-    }
+//     }
 
-    &__phone {
-        border: 3px solid red;
-        margin: auto;
-        width: 500px;
-        height: 140px;
-        margin: 50px auto 120px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+//     &__phone {
+//         border: 3px solid red;
+//         margin: auto;
+//         width: 500px;
+//         height: 140px;
+//         margin: 50px auto 120px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
 
-        &>p {
-            font-weight: 700;
-            font-size: 20px;
+//         &>p {
+//             font-weight: 700;
+//             font-size: 20px;
 
-            &:nth-child(2) {
-                font-size: 28px;
-            }
-        }
-    }
-}
+//             &:nth-child(2) {
+//                 font-size: 28px;
+//             }
+//         }
+//     }
+// }
 </style>

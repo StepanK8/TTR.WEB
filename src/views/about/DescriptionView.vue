@@ -205,7 +205,7 @@ export default {
         grid-template-columns: 2fr 3fr;
         grid-template-rows: 1fr 1fr 1fr;
         width: 100%;
-        height: 900px;
+        height: auto;
         gap: 20px;
         margin: 70px 0;
 

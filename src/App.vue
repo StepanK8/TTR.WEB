@@ -81,7 +81,7 @@ export default {
     console.log(illustrations.keys())
 
 
-    this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
+    // this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
 
   },
   mounted() {
@@ -158,11 +158,11 @@ export default {
 
   },
   watch: {
-    '$route.path'(v) {
-      console.log('$route.meta.titles', decodeURI(window.location.pathname));
-      this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
-      this.isOpenMobileMenu = false
-    }
+    // '$route.path'(v) {
+    //   console.log('$route.meta.titles', decodeURI(window.location.pathname));
+    //   this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
+    //   this.isOpenMobileMenu = false
+    // }
   },
 };
 </script>
@@ -170,6 +170,7 @@ export default {
 <style lang="scss">
 @import '@/style/template.scss';
 @import '@/style/reset.scss';
+@import '@/style/requisites.scss';
 
 h2 {
   @include baseText(28px);

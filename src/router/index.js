@@ -294,7 +294,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/OrderExecution.vue"),
     meta: {
-      title: "Порядок Выполнения Технологического Подключения",
+      title: "Порядок выполнения технологического подключения",
     },
     children: [
 

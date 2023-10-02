@@ -1,7 +1,40 @@
 <template>
     <div>
+        <div class="req__card req__card--background">
+            <div>
+                <div class="req__row">
+                    <p class="req__title">Полное наименование: </p>
+                    <p class="req__text">Общество с ограниченной ответственностью «ТеплоТрансРемонт»</p>
+                </div>
+
+                <div class="req__row">
+                    <p class="req__title">Сокращенное наименование: </p>
+                    <p class="req__text">ООО «ТТР»</p>
+                </div>
+
+                <div class="req__row">
+                    <p class="req__title">Адрес и местонахождение</p>
+                    <p class="req__text">350042 Краснодарский край, г. Краснодар, ул. Садовая, д.223 офис 43</p>
+                </div>
+
+                <div class="req__row">
+                    <p class="req__title">Генеральный директор</p>
+                    <p class="req__text">Репин Александр Львович</p>
+                </div>
+
+                <div class="req__row">
+                    <p class="req__title">Электронная почта</p>
+                    <p class="req__text">ttr23rus@mail.ru</p>
+                </div>
+
+                <div class="req__row">
+                    <p class="req__title">Телефон</p>
+                    <p class="req__text">8 (861) 275-29-64, 275-29-15, 8-989-238-36-96</p>
+                </div>
+            </div>
+        </div>
         <div v-for="card in cards">
-            <SubsidiaryApp :data="card"/>
+            <SubsidiaryApp :data="card" />
         </div>
     </div>
 </template>
@@ -9,9 +42,9 @@
 import SubsidiaryApp from '@/components/SubsidiaryApp.vue';
 export default {
     components: { SubsidiaryApp },
-    data(){
+    data() {
         return {
-            cards:[
+            cards: [
                 {
                     configs: [
                         ['Наименование филиала', 'Новопокровский филиал ООО «ТЕПЛОТРАНСРЕМОНТ»'],
@@ -31,7 +64,7 @@ export default {
                     ],
                     phone: '8-989-831-85-70',
                     map: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A81c6c7731bd071e3044302a7e02c94f9ca4e95d3f147c460ba739827f63cb019&amp;source=constructor" width="350" height="350" frameborder="0"></iframe>',
-                    
+
                 },
                 {
                     configs: [
@@ -44,11 +77,9 @@ export default {
                     map: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a1ad736e667abed70b2415eee8cb1d4318ffe2d7c6c6850c1a09242ffa09016&amp;source=constructor" width="350" height="350" frameborder="0"></iframe>',
                 },
             ]
-            
+
         }
     }
 }
 </script>
-<style lang="scss">
-    
-</style>
+<style lang="scss"></style>
