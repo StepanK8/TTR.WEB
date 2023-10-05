@@ -1,8 +1,8 @@
 <template>
     <div>
-        <MiniNavigation/>
-        <br>
         <h2>{{ $route.meta.title }}</h2>
+        <MiniNavigation />
+        <br>
         <router-view></router-view>
     </div>
 </template>
@@ -14,6 +14,4 @@ export default {
     },
 }
 </script>
-<style lang="scss">
-    
-</style>
+<style lang="scss"></style>

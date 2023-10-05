@@ -4,8 +4,8 @@
             <h2>Концессии</h2>
             <MiniNavigation></MiniNavigation>
             <br>
-            <DownloadApp folderName="concessions"
-                name="Федеральный закон от 21.07.2005 N 115-ФЗ О концессионных соглашениях.docx" icon="true" />
+            <DownloadApp :folderName="'/concessions/'"
+                :name="'Федеральный закон от 21.07.2005 N 115-ФЗ О концессионных соглашениях.docx'" icon="true" />
         </div>
         <!-- <div>
             <router-link to="/концессии/апш">Апшеронский район</router-link>

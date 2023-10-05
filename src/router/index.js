@@ -22,7 +22,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/about/DescriptionView.vue"),
   },
   {
-    path: "/о-компании",
+    path: "/about",
     meta: {
       title: "О компании",
     },
@@ -31,7 +31,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
     children: [
       {
-        path: "описание-деятельности",
+        path: "description",
         meta: {
           title: "Описание деятельности",
         },
@@ -40,7 +40,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/about/DescriptionView.vue"),
       },
       {
-        path: "реквизиты",
+        path: "requisites",
         meta: {
           title: "Реквизиты",
         },
@@ -49,7 +49,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/about/RequisitesView.vue"),
       },
       {
-        path: "устав-и-нормативные-документы",
+        path: "charter-and-documents",
         meta: {
           title: "Устав и нормативные документы",
           folderName: 'charter',
@@ -63,7 +63,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "структура-ооо-ттр",
+        path: "structure-ttr",
         meta: {
           title: 'Структура ООО "ТТР"',
         },
@@ -72,7 +72,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/about/StructureApp.vue"),
       },
       {
-        path: "вакансии",
+        path: "vacancies",
         meta: {
           title: 'Вакансии',
         },
@@ -84,7 +84,7 @@ const routes = [
     ],
   },
   {
-    path: "/филиалы",
+    path: "/subsidiaries",
     name: "subsidiaries",
     meta: {
       title: "Филиалы",
@@ -93,7 +93,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/SubsidiariesView.vue"),
   },
   {
-    path: "/нормативная-база",
+    path: "/normative-base",
     name: "base",
     meta: {
       title: "Нормативная База",
@@ -102,7 +102,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/BaseView.vue"),
   },
   {
-    path: "/раскрытие-информации",
+    path: "/information-disclosure",
     name: "info",
     meta: {
       title: "Раскрытие информации",
@@ -111,8 +111,8 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/InfoView.vue"),
   },
   {
-    path: "/закупки",
-    name: "purchase",
+    path: "/purchases",
+    name: "purchases",
     meta: {
       title: "Закупки",
     },
@@ -120,7 +120,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/PurchaseView.vue"),
     children: [
       {
-        path: "план-закупок",
+        path: "procurement-plan",
         name: "plan",
         meta: {
           title: "План закупок",
@@ -137,7 +137,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "положение-о-закупках",
+        path: "procurement-situation",
         name: "condition",
         meta: {
           title: "Положение о закупках",
@@ -153,18 +153,18 @@ const routes = [
     ],
   },
   {
-    path: "/концессии",
+    path: "/concessions",
     name: "concessions",
     meta: {
-      title: "Концессии",
+      title: "Концессия",
     },
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/ConcessionsView.vue"),
     children: [
       {
-        path: "апшеронский-филиал",
+        path: "apsheronsk",
         meta: {
-          title: "Апшеронский Филиал",
+          title: "Апшеронский район",
           html: concessionsData['Апшеронский район'],
         },
         name: "apsh",
@@ -172,9 +172,9 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/TextTemplate.vue"),
       },
       {
-        path: "новопокровский-филиал",
+        path: "novopokrovsk",
         meta: {
-          title: "Новопокровский Филиал",
+          title: "Новопокровский район",
           html: concessionsData['Новопокровский район'],
         },
         name: "novo",
@@ -184,7 +184,7 @@ const routes = [
     ],
   },
   {
-    path: "/статус-ето",
+    path: "/status",
     name: "eto",
     meta: {
       title: "Статус ЕТО",
@@ -193,14 +193,14 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/EtoView.vue"),
   },
   {
-    path: "/потребителям",
-    name: "counsumers",
+    path: "/consumers",
+    name: "consumers",
     meta: {
       title: "Потребителям",
     },
     children: [
       {
-        path: "договор",
+        path: "agreement",
         meta: {
           title: "Договор",
           folderName: 'agreement',
@@ -217,7 +217,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "нормативы",
+        path: "standards",
         meta: {
           title: "Нормативы",
         },
@@ -233,7 +233,7 @@ const routes = [
               import(/* webpackChunkName: "about" */ "../views/consumers/HotWaterApp.vue"),
           },
           {
-            path: "отопление",
+            path: "heating",
             meta: {
               title: "Отопление",
             },
@@ -241,12 +241,13 @@ const routes = [
             component: () =>
               import(/* webpackChunkName: "about" */ "../views/consumers/HeatingApp.vue"),
           },
+
         ],
         component: () =>
           import(/* webpackChunkName: "about" */ "../views/consumers/StandardsView.vue"),
       },
       {
-        path: "образцы-заявлений",
+        path: "examples",
         meta: {
           title: "Образцы заявлений",
           folderName: 'examples',
@@ -269,7 +270,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "перечень-документов",
+        path: "list-docs",
         meta: {
           title: "Перечень документов",
           folderName: 'list_docs',
@@ -283,13 +284,35 @@ const routes = [
         component: () =>
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
+      {
+        path: "printout-meter",
+        meta: {
+          title: "Форма распечатки с прибора учета тепловой энергии",
+          files: ['Форма отчета ТЭ.jpg'],
+          folderName: 'consumers',
+        },
+        name: "printoutMeter",
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
+      },
+      {
+        path: "form-connection-consumers",
+        meta: {
+          title: "Форма акта допуска в эксплуатацию узла учета тепловой энергии у потребителя",
+
+        },
+        name: "formConnectionConsumers",
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/consumers/PrintoutMeterView.vue"),
+
+      },
 
     ],
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/ConsumersView.vue"),
   },
   {
-    path: "/порядок-выполнения-технологического-подключения",
+    path: "/order-execution",
     name: "orderExecution",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/OrderExecution.vue"),
@@ -299,7 +322,7 @@ const routes = [
     children: [
 
       {
-        path: "форма-заявки-на-заключение-договора",
+        path: "application-concluding-agreement",
         meta: {
           title: "Форма заявки на заключение договора",
           folderName: 'form',
@@ -312,7 +335,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "перечень-документов-и-сведений-к-заявке",
+        path: "list-documents-application",
         meta: {
           title: "Перечень документов и сведений к заявке",
           folderName: 'list_doc_to_order',
@@ -325,7 +348,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "реквизиты-нормативных-правовых-актов",
+        path: "details-of-act",
         meta: {
           title: "Реквизиты нормативных правовых актов",
           folderName: 'details_of_acts',
@@ -339,7 +362,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/order_execution/DetailsActs.vue"),
       },
       {
-        path: "телефоны-адреса-график-работы",
+        path: "phone-addresses",
         meta: {
           title: "Телефоны адреса график работы",
         },
@@ -348,9 +371,9 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/order_execution/PhonesApp.vue"),
       },
       {
-        path: "договор-технического-присоединения",
+        path: "agreement-connection",
         meta: {
-          title: "Договор технического присоединения",
+          title: "Договор технологического присоединения",
           folderName: 'agreement_connection',
           files: [
             'Договор на подключение к системе теплоснабжения.docx',
@@ -361,7 +384,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
       },
       {
-        path: "информация-о-доступности-мощности",
+        path: "power-availability-information",
         meta: {
           title: "Информация о доступности мощности",
           folderName: 'available',
@@ -379,7 +402,7 @@ const routes = [
   },
 
   {
-    path: "/платные-услуги",
+    path: "/paid-services",
     name: "paidServices",
     meta: {
       title: "Платные услуги",
@@ -388,7 +411,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/PaidServices.vue"),
     children: [
       {
-        path: "апшеронский-филиал",
+        path: "apsheronsk-branch",
         meta: {
           title: "Апшеронский филиал",
           folderName: 'paidServices/apsh',
@@ -401,7 +424,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/DevLayout.vue"),
       },
       {
-        path: "новопокровский-филиал",
+        path: "novopokrovsky-branch",
         meta: {
           title: "Новопокровский филиал",
           folderName: 'paidServices/novo',
@@ -414,7 +437,7 @@ const routes = [
           import(/* webpackChunkName: "about" */ "../views/DevLayout.vue"),
       },
       {
-        path: "новороссийский-филиал",
+        path: "novorossiysk-branch",
         meta: {
           title: "Новороссийский филиал",
           folderName: 'paidServices/novoros',
@@ -429,7 +452,7 @@ const routes = [
     ]
   },
   {
-    path: "/новости",
+    path: "/news",
     name: "news",
     meta: {
       title: "Новости",
@@ -438,13 +461,61 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/NewsView.vue"),
   },
   {
-    path: "/тарифы",
+    path: "/contacts",
+    name: "contacts",
+    meta: {
+      title: "Контакты",
+    },
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ContactsView.vue"),
+  },
+  {
+    path: "/tariffs",
     name: "tariffs",
     meta: {
       title: "Тарифы",
     },
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/TariffsView.vue"),
+    children: [
+      {
+        path: "apsheronsk-branch",
+        meta: {
+          title: "Апшеронский филиал",
+          fullName: 'Апшеронский филиал ООО «ТеплоТрансРемонт»',
+          subTitle: 'Тариф на тепловую энергию и горячую воду Апшеронский филиал на 2023',
+          files: [
+            'О применении тарифов на ТЭ_Апшеронский филиал ТТР.docx',
+          ]
+        },
+        name: "tariffApsh",
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/TariffTemplate.vue"),
+      },
+      {
+        path: "novopokrovsky-branch",
+        meta: {
+          title: "Новопокровский филиал",
+          fullName: 'Новопокровский филиал ООО «ТеплоТрансРемонт»',
+          subTitle: 'Тариф на тепловую энергию Новопокровский филиал на период с 01.12.2022 по 31.12.2025',
+          files: [
+            'Приказ на установление тарифа на ТЭ_Новопокровский филиал ТТР.pdf',
+          ]
+        },
+        name: "tariffNovopok",
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/TariffTemplate.vue"),
+      },
+      {
+        path: "novorossiysk-branch",
+        meta: {
+          title: "Новороссийский филиал",
+        },
+        name: "tariffNovoros",
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/DevLayout.vue"),
+      },
+    ],
   },
 
 ];

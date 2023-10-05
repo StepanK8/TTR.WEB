@@ -42,6 +42,7 @@ export default {
         margin: 80px auto 40px;
         box-shadow: var(--shadow);
         border-radius: 15px;
+        overflow: hidden;
 
         &_left {
             display: flex;

@@ -158,11 +158,12 @@ export default {
 
   },
   watch: {
-    // '$route.path'(v) {
-    //   console.log('$route.meta.titles', decodeURI(window.location.pathname));
-    //   this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
-    //   this.isOpenMobileMenu = false
-    // }
+    '$route.path'() {
+      // console.log('$route.meta.titles', decodeURI(window.location.pathname));
+      // this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
+      // this.isOpenMobileMenu = false
+      window.scroll({ top: 0 })
+    }
   },
 };
 </script>

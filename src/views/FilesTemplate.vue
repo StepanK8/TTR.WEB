@@ -2,11 +2,16 @@
     <div>
         <div v-for="file in $route.meta.files" class="file__row">
             <a download :href="'/' + $route.meta.folderName + '/' + file">{{ file }}</a>
+            <!-- <DownloadApp /> -->
         </div>
     </div>
 </template>
 <script>
+import DownloadApp from '@/components/DownloadApp.vue';
 export default {
+    components: {
+        DownloadApp,
+    },
     data() {
         return {
             files: [],

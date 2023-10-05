@@ -48,7 +48,7 @@ export default {
                         ['Директор филиала', 'Репин Александр Львович'],
                         ['Режим работы', 'понедельник — четверг с 8:00 до 17:00, перерыв с 12:00 до 13:00; пятница с 8:00 до 16:00, перерыв с 12:00 до 12:45']
                     ],
-                    phone: '8 (928) 426-58-48',
+                    phone: '8 (962) 878-09-77',
                     map: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a1ad736e667abed70b2415eee8cb1d4318ffe2d7c6c6850c1a09242ffa09016&amp;source=constructor" width="350" height="350" frameborder="0"></iframe>',
                 },
             ]

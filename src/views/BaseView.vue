@@ -126,7 +126,7 @@
                 Официальное опубликование нормативных правовых актов на сайте Администрации муниципального образования
                 Новопокровского района
                 <a
-                    href="https://krd.ru/dokumenty/dokumenty-administratsii/ofitsialnoe-opublikovanie-normativnykh-pravovykh-aktov">https://krd.ru/dokumenty/dokumenty-administratsii/ofitsialnoe-opublikovanie-normativnykh-pravovykh-aktov</a>
+                    href="https://www.novopokrovskaya.org/munitsipalnye-pravovye-akty">https://www.novopokrovskaya.org/munitsipalnye-pravovye-akty</a>
             </p>
         </div>
 
@@ -137,6 +137,16 @@
                     href="https://apsheronsk-oms.ru/documents/index.html">https://apsheronsk-oms.ru/documents/index.html</a>
             </p>
         </div>
+
+        <div class="base__card">
+            <p>
+                Официальное опубликование нормативных правовых актов на сайте Администрации муниципального образования
+                город-герой Новороссийск
+                <a
+                    href="https://admnvrsk.ru/dokumenty/dokumenty-administratsii/normativnye-pravovye-akty/">https://admnvrsk.ru/dokumenty/dokumenty-administratsii/normativnye-pravovye-akty/</a>
+            </p>
+        </div>
+
     </div>
 </template>
 <script>

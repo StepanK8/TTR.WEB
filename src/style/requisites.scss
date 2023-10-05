@@ -1,7 +1,7 @@
 .req {
     &__card {
         display: flex;
-
+        overflow: hidden;
 
         &_left {
             display: flex;
@@ -27,12 +27,17 @@
         color: rgb(0, 0, 0);
         font-weight: 700;
     }
-
+    &__center{
+        text-align: center;
+    }
     &__text {
         @include baseText(18px);
         color: rgb(77, 77, 77);
         text-align: center;
         font-weight: 400;
+        & > span{
+            color: var(--deepGray);
+        }
     }
 
     &__row {

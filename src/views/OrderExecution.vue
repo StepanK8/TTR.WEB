@@ -1,9 +1,8 @@
 <template>
     <div>
+        <h2>{{ $route.meta.title }}</h2>
         <MiniNavigation :styleGrid="true" />
         <br>
-
-        <h2>{{ $route.meta.title }}</h2>
         <router-view></router-view>
     </div>
 </template>
