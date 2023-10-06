@@ -64,4 +64,14 @@ export default {
         }
     }
 }
+
+ @media screen and (max-width: $mediaQuery2) {
+    .downloadLink{
+        flex-direction: column;
+        gap: 20px;
+        a{
+            text-align: center !important;
+        } 
+    }
+ }
 </style>

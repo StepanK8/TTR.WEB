@@ -91,3 +91,11 @@
         }
     }
 }
+
+@media screen and (max-width: $mediaQuery2) {
+    .req{
+        &__card{
+            width: var(--width);
+        }
+    }
+}

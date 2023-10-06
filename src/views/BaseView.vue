@@ -194,4 +194,10 @@ export default {
     }
 
 }
+
+@media screen and (max-width: $mediaQuery2) {
+    .base{
+        width: var(--width);
+    }   
+}
 </style>

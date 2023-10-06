@@ -1,8 +1,8 @@
 <template>
     <div class="mini-navig__wrap" :class="{ 'mini-navig__wrap--grid': styleGrid }">
         <div v-for="link in childrens">
-            <router-link active-class="mini-navig__link--active" class="mini-navig__link" :to="{ name: link.name }">{{
-                link.meta.title }}</router-link>
+            <router-link active-class="mini-navig__link--active" class="mini-navig__link" :to="{ name: link.name }">
+             {{ link.meta.fullTitle ?? link.meta.title }}</router-link>
         </div>
     </div>
 </template>
@@ -36,7 +36,7 @@ export default {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 10px;
-
+            
             &>div {
                 width: 100%;
 
@@ -73,6 +73,18 @@ export default {
 @media screen and (max-width: $mediaQuery2) {
     .mini-navig {
         display: none;
+        &__link{
+            font-size: 14px;
+            white-space: wrap;
+        }
+        &__wrap{
+            &--grid{
+                grid-template-columns: 1fr;
+                & > div{
+                    width: var(--width);
+                }
+            }
+        }
     }
 }
 </style>

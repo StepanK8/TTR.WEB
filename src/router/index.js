@@ -287,23 +287,26 @@ const routes = [
       {
         path: "printout-meter",
         meta: {
-          title: "Форма распечатки с прибора учета тепловой энергии",
-          files: ['Форма отчета ТЭ.jpg'],
-          folderName: 'consumers',
+          title: 'Форма распечатки ПУ',
+          fullTitle: "Форма распечатки с прибора учета тепловой энергии",
         },
         name: "printoutMeter",
         component: () =>
-          import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
+          import(/* webpackChunkName: "about" */ "../views/consumers/PrintoutMeterView.vue"),
       },
       {
         path: "form-connection-consumers",
         meta: {
-          title: "Форма акта допуска в эксплуатацию узла учета тепловой энергии у потребителя",
+          title: 'Форма акта допуска',
+          fullTitle: "Форма акта допуска в эксплуатацию узла учета тепловой энергии у потребителя",
+          files: ['Форма Акта допуска узла учета тепловой энергии.doc'],
+          folderName: 'consumers',
 
         },
         name: "formConnectionConsumers",
-        component: () =>
-          import(/* webpackChunkName: "about" */ "../views/consumers/PrintoutMeterView.vue"),
+        
+          component: () =>
+          import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
 
       },
 
@@ -396,6 +399,19 @@ const routes = [
         name: "available",
         component: () =>
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
+      },
+      {
+        path: "heat-supply-diagram",
+        meta: {
+          title: "Схема теплоснабжения",
+          files: [
+            'Информация-о-наличии-резерва-мощности-по-подключению-к-ГВС.docx',
+            'Информация-о-наличии-резерва-мощности-по-подключению-к-отоплению.docx',
+          ],
+        },
+        name: "heatSupplyDiagram",
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/DevLayout.vue"),
       },
 
     ],

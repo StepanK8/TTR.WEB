@@ -93,4 +93,11 @@ export default {
         }
     }
 }
+@media screen and (max-width: $mediaQuery2) {
+    .news{
+        &__card{
+            width: var(--width);
+        }
+    }
+}
 </style>

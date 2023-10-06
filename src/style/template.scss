@@ -51,9 +51,12 @@ $mediaQuery2: 800px;
 }
 @media screen and (max-width: $mediaQuery2) {
     *{
+        --width: 90vw;
         --maxW: 95vw;
         --heightImageWrap: 45vw;
+        --little: 16px;
         --middle: 16px;
+        --big: 20px;
     }
 }
 // body{

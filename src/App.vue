@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <SidebarApp />
+  <SidebarApp />
 
     <div class="main__wrap">
       <div class="main__content">
@@ -14,7 +14,7 @@
         </div>
 
       </div>
-      <FooterApp />
+      <FooterApp/>
     </div>
   </div>
   <!-- <HomeView @openRequest="openRequest" /> -->
@@ -161,7 +161,7 @@ export default {
     '$route.path'() {
       // console.log('$route.meta.titles', decodeURI(window.location.pathname));
       // this.findRouteWithPath(decodeURI(window.location.pathname), this.$router.options.routes)
-      // this.isOpenMobileMenu = false
+      this.isOpenMobileMenu = false
       window.scroll({ top: 0 })
     }
   },
@@ -242,6 +242,16 @@ a {
     flex-direction: column;
   }
 
+}
+
+@media screen and (max-width: $mediaQuery2){
+  table{
+    width: 100vw;
+    max-width: 100vw;
+    display: block;
+    overflow: auto;
+    margin-left: -5vw;
+  }
 }
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */

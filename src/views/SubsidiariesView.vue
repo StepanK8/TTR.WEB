@@ -77,4 +77,14 @@ export default {
         }
     }
 }
+
+@media screen and (max-width: $mediaQuery2) {
+    .subsideries{
+        &__nav{
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    }
+}
+
 </style>

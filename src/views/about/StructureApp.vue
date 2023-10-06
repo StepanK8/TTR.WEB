@@ -53,4 +53,11 @@ export default {
         flex-direction: column;
     }
 }
+@media screen and (max-width: $mediaQuery2) {
+    .structure{
+        &__grid{
+            grid-template-columns: 1fr;
+        }
+    }
+}
 </style>

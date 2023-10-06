@@ -61,7 +61,7 @@ export default {
         }
     }
 
-    &__title {
+    &__title{
         @include baseText(18px);
         color: rgb(0, 0, 0);
         text-align: center;
@@ -70,7 +70,7 @@ export default {
         margin-bottom: 10px;
     }
 
-    &__text {
+    &__text{
         @include baseText(18px);
         color: rgb(77, 77, 77);
         text-align: center;
@@ -176,4 +176,64 @@ export default {
         }
     }
 }
+@media screen and (max-width: $mediaQuery2) {
+    .subsid{
+        &__card{
+            width: var(--width);
+            flex-direction: column;
+            height: auto;
+            &_left{
+                width: 100%;
+            }
+            &_right{
+                height: 100vw;
+                margin-top: 10vw;
+            }
+        }
+        &__text{
+            font-size: var(--middle);
+        }
+        &__row{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &:first-child {
+            font-size: 20px;
+            font-weight: 400;
+
+            &>p {
+
+
+                &:nth-child(2) {
+                    font-size: var(--big);
+                }
+            }
+        }
+        }
+        &__title{
+            font-size: var(--big);
+        }
+        &__phone{
+            &>p {
+            font-weight: 700;
+            font-size: var(--middle);
+            text-align: center;
+
+            &:nth-child(1) {
+            }
+
+            &:nth-child(2) {
+                color: var(--red);
+                font-size: var(--middle);
+            }
+        }
+        }
+
+
+        
+        
+    }
+    }
+
 </style>
