@@ -4,6 +4,7 @@
             <router-link :to="{ name: 'hotWaterApp' }">Горячее водоснабжение</router-link>
             <router-link :to="{ name: 'heating' }">Отопление</router-link>
         </div>
+        <br>
         <!-- <router-link :to="{name: 'heating'}"></router-link> -->
         <router-view />
     </div>

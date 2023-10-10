@@ -27,27 +27,25 @@
                     <td>А</td>
                     <td>а) о регулируемой организации (общая информация);</td>
                     <td>
-                        <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=OrgInfo&amp;sphere=TS&amp;year=2023">
-                            на сайте<br>ЕИАС
-                        </a>
+                        на сайте<br>ЕИАС
                     </td>
                     <td>
-                        <a download
-                            href="/info/FAS.JKH.OPEN.INFO.ORG.WARM(v1.1.1)-Новопокровский ТТР 2022.xlsb">Посмотреть</a>
+
+                        <a href="https://disk.yandex.ru/d/xiXk86iqI4xfBQ">Посмотреть</a>
+                        <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=OrgInfo&sphere=TS&year=2023">Посмотреть</a>
                     </td>
                 </tr>
                 <tr>
                     <td>18,20,21</td>
                     <td>Б</td>
                     <td>б) о ценах (тарифах) на регулируемые товары (услуги);</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Plan&sphere=TS&year=2023">на
-                            сайте<br>ЕИАС</a> </td>
-                    <td><a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Tarif&amp;sphere=TS&amp;year=2023">Посмотреть</a>
-                        <br><a download
-                            href="/info/FAS.JKH.OPEN.INFO.PRICE.WARM(v1.0.2)-Новопокровский ТТР на 2022-2025.xlsb">Посмотреть</a>
+                    <td>на сайте<br>ЕИАС</td>
+                    <td><a href="https://disk.yandex.ru/d/cmryBMnhVGNvaA">Посмотреть</a>
+                        <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Plan&sphere=TS&year=2023">Посмотреть</a>
                     </td>
                 </tr>
                 <tr>
@@ -56,14 +54,15 @@
                     <td>в) об основных показателях финансово-хозяйственной деятельности регулируемой организации, включая
                         структуру основных производственных затрат (в части регулируемых видов деятельности);</td>
                     <td>
-                        <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Fact&sphere=TS&year=2023">
-                            на сайте<br>ЕИАС
-                        </a>
+                        на сайте<br>ЕИАС
                     </td>
                     <td>
-                        <br><a download
-                            href="/info/FAS.JKH.OPEN.INFO.BALANCE.WARM(v2.0.1) — ТТР за 2022.xlsb">Посмотреть</a>
+                        <a href="https://disk.yandex.ru/d/yso6wIl_FxzMBA">Посмотреть</a>
+                        <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Fact&sphere=TS&year=2023">
+                            Посмотреть
+                        </a>
                     </td>
                 </tr>
                 <tr>
@@ -72,18 +71,16 @@
                     <td>г) об основных потребительских характеристиках регулируемых товаров и услуг регулируемой
                         организации;</td>
                     <td>
-                        <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Services&amp;sphere=TS&amp;year=2023">
-                            на сайте<br>ЕИАС>
-                        </a>
+                        на сайте<br>ЕИАС
                     </td>
 
 
                     <td>
-                        <br><a download
-                            href="/info/Г/FAS.JKH.OPEN.INFO.BALANCE.WARM(v2.0.1) — ТТР за 2022.xlsb">Посмотреть</a>
-                        <br><a download
-                            href="/info/Г/FAS.JKH.OPEN.INFO.LIMIT.WARM(v1.0.2)-Новопокровский ТТР 2023 квартал 2.xlsb">Посмотреть</a>
+                        <a href="https://disk.yandex.ru/d/swwjris8H1-XGQ">Посмотреть</a>
+                        <br><a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Services&amp;sphere=TS&amp;year=2023">
+                            Посмотреть
+                        </a>
                     </td>
                 </tr>
                 <tr>
@@ -91,43 +88,55 @@
                     <td>Д</td>
                     <td>д) об инвестиционных программах регулируемой организации и отчетах об их исполнении;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td></td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/48LfH_ZuZB3SBA">Посмотреть</a>
+                        <br>
+                        <br>
+                    </td>
                 </tr>
+
                 <tr>
                     <td>18,25,26</td>
                     <td>Е</td>
                     <td>е) о наличии (отсутствии) технической возможности подключения (технологического присоединения) к
                         системе теплоснабжения, а также о принятии и ходе рассмотрения заявок на заключение договора о
                         подключении (технологическое присоединение) к системе теплоснабжения;</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Limit&amp;sphere=TS&amp;year=2023">на
-                            сайте<br>ЕИАС</a> </td>
+                    <td> на сайте<br>ЕИАС </td>
                     <td>
-                        <a download
-                            href="/info/Е/FAS.JKH.OPEN.INFO.QUARTER.WARM(v1.1.1)-Новопокровский ТТР 2023 квартал 2.xlsb">Посмотреть</a>
+                        <a href="https://disk.yandex.ru/d/o_47alThFMP6Gw">Посмотреть</a>
+                        <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Limit&sphere=TS&year=2023">Посмотреть</a>
                     </td>
                 </tr>
+
                 <tr>
                     <td>18,27</td>
                     <td>Ж</td>
                     <td>ж) об условиях, на которых осуществляется поставка товаров (оказание услуг) в сфере теплоснабжения,
                         цены (тарифы) на которые подлежат регулированию, и (или) условиях договоров о подключении
                         (технологическом присоединении) к системе теплоснабжения;</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Terms&amp;sphere=TS&amp;year=2023">на
-                            сайте<br>ЕИАС</a> </td>
+                    <td> на сайте<br>ЕИАС</td>
                     <td>
-                        <br><a download href="/info/Ж/FAS.JKH.OPEN.INFO.TERMS.WARM(v1.0.2)-НТТР 2023.xlsb">Посмотреть</a>
+                        <a href="https://disk.yandex.ru/d/XbUjoKmS5Op5Tw">Посмотреть</a>
+                        <br><a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Terms&amp;sphere=TS&amp;year=2023">Посмотреть</a>
                     </td>
                 </tr>
+
                 <tr>
                     <td>18,28</td>
                     <td>З</td>
                     <td>з) о порядке выполнения технологических, технических и других мероприятий, связанных с подключением
                         (технологическим присоединением) к системе теплоснабжения;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td></td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/f1oJb_nZwVTuVg">Посмотреть</a>
+                        <br>
+                        <br>
+                    </td>
                 </tr>
+
                 <tr>
                     <td>18,29</td>
                     <td>И</td>
@@ -136,9 +145,9 @@
                         регулированию;</td>
                     <td>на сайте<br>ЕИАС</td>
                     <td>
-                        <a download href="/info/И/FAS.JKH.OPEN.INFO.TERMS.WARM(v1.0.2)-НТТР 2023.xlsb">Посмотреть</a>
+                        <a href="https://disk.yandex.ru/d/g4lGoo_-rozMSw">Посмотреть</a>
                         <br>
-                        <a download href="/info/И/Положение о закупках ТТР в редакции от 20.04.2023.pdf">Посмотреть</a>
+                        <br>
                     </td>
                 </tr>
                 <tr>
@@ -146,11 +155,14 @@
                     <td>К</td>
                     <td>к) о предложении регулируемой организации об установлении цен (тарифов) в сфере теплоснабжения на
                         очередной расчетный период регулирования</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Tarif&sphere=TS&year=2023">на
-                            сайте<br>ЕИАС</a> </td>
-                    <td><a download
-                            href="/info/К/FAS.JKH.OPEN.INFO.REQUEST.WARM(v1.0.2)-Новопокровский ТТР на 2024.xlsb">Посмотреть</a>
+                    <td>
+                        сайте<br>ЕИАС
+                    </td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/UC3wsecvMgVDBw">Посмотреть</a>
+                        <br>
+                        <a
+                            href="https://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Tarif&sphere=TS&year=2023">Посмотреть</a>
                     </td>
                 </tr>
             </tbody>
@@ -178,10 +190,14 @@
                     <td>59,60</td>
                     <td>А</td>
                     <td>а) об организации горячего водоснабжения (общая информация)</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=OrgInfo&amp;sphere=GVS&amp;year=2023">
-                            на сайте<br>ЕИАС</a></td>
                     <td>
+                        на сайте<br>ЕИАС</td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/MTSqnLlHQ78vyQ">Посмотреть</a>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=OrgInfo&amp;sphere=GVS&amp;year=2023">
+                            Посмотреть
+                        </a>
                     </td>
                 </tr>
                 <tr>
@@ -189,12 +205,12 @@
                     <td>Б</td>
                     <td>б) о тарифах в сфере горячего водоснабжения на товары (услуги) организации горячего водоснабжения,
                         подлежащих регулированию</td>
-                    <td><a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Plan&amp;sphere=GVS&amp;year=2023">на
-                            сайте<br>ЕИАС</a></td>
-                    <td><a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Plan&amp;sphere=GVS&amp;year=2023">Посмотреть</a>
+                    <td>на сайте<br>ЕИАС</td>
+                    <td><a href="https://disk.yandex.ru/d/tRhkKYyJj3X2XQ">Посмотреть</a>
                         <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Plan&amp;sphere=GVS&amp;year=2023">
+                            Посмотреть</a>
                     </td>
                 </tr>
                 <tr>
@@ -203,11 +219,13 @@
                     <td>в) об основных показателях финансово-хозяйственной деятельности организации горячего водоснабжения,
                         включая структуру основных производственных затрат (в части регулируемых видов деятельности в сфере
                         горячего водоснабжения);</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Fact&amp;sphere=GVS&amp;year=2023">на
-                            сайте<br>ЕИАС</a> </td>
+                    <td>на сайте<br>ЕИАС </td>
                     <td>
+                        <a href="https://disk.yandex.ru/d/EYCiM8SX8xU11Q">Посмотреть</a>
                         <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Fact&amp;sphere=GVS&amp;year=2023">
+                            Посмотреть</a>
                     </td>
                 </tr>
                 <tr>
@@ -215,11 +233,12 @@
                     <td>Г</td>
                     <td>г) об основных потребительских характеристиках товаров (услуг), тарифы на которые подлежат
                         регулированию, и их соответствии установленным требованиям;</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Services&amp;sphere=GVS&amp;year=2023&nbsp;">на
-                            сайте<br>ЕИАС</a> </td>
+                    <td> на сайте<br>ЕИАС </td>
                     <td>
+                        <a href="https://disk.yandex.ru/d/xnVy32ZuZNq7Jg">Посмотреть</a>
                         <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Services&sphere=GVS&year=2023">Посмотреть</a>
                     </td>
                 </tr>
                 <tr>
@@ -227,7 +246,11 @@
                     <td>Д</td>
                     <td>д) об инвестиционных программах организации горячего водоснабжения и отчетах об их исполнении;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td></td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/et_d0VOPcVBCmg">Посмотреть</a>
+                        <br>
+                        <br>
+                    </td>
                 </tr>
                 <tr>
                     <td>59,66,67</td>
@@ -237,7 +260,11 @@
                         заключении договоров о подключении (технологическом присоединении) к централизованной системе
                         горячего водоснабжения;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td></td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/09yJnW5_eDp1Yg">Посмотреть</a>
+                        <br>
+                        <br>
+                    </td>
                 </tr>
                 <tr>
                     <td>59,68</td>
@@ -246,7 +273,11 @@
                         подлежат регулированию, и (или) условиях договоров о подключении (технологическом присоединении) к
                         централизованной системе горячего водоснабжения;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td></td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/DXQhCs58OOqLSQ">Посмотреть</a>
+                        <br>
+                        <br>
+                    </td>
                 </tr>
                 <tr>
                     <td>59,69</td>
@@ -254,7 +285,11 @@
                     <td>з) о порядке выполнения технологических, технических и других мероприятий, связанных с подключением
                         (технологическим подключением) к централизованной системе горячего водоснабжения;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td></td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/SwlrltF-6zp4ZQ">Посмотреть</a>
+                        <br>
+                        <br>
+                    </td>
                 </tr>
                 <tr>
                     <td>59,70</td>
@@ -263,7 +298,10 @@
                         горячего водоснабжения для производства товаров (оказания услуг) в сфере горячего водоснабжения,
                         тарифы на которые подлежат регулированию;</td>
                     <td>на сайте<br>ЕИАС</td>
-                    <td><a download href="/info/2И/Положение о закупках ТТР в редакции от 20.04.2023.pdf">Посмотреть</a>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/IuY_FQOMzxBYPQ">Посмотреть</a>
+                        <br>
+                        <br>
                     </td>
                 </tr>
                 <tr>
@@ -271,10 +309,14 @@
                     <td>К</td>
                     <td>к) о предложении организации горячего водоснабжения об установлении тарифов в сфере горячего
                         водоснабжения на очередной период регулирования</td>
-                    <td> <a
-                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&amp;razdel=Tarif&amp;sphere=GVS&amp;year=2023">
-                            на сайте<br>ЕИАС</a></td>
                     <td>
+                        на сайте<br>ЕИАС</td>
+                    <td>
+                        <a href="https://disk.yandex.ru/d/dD9FzK3Eiek_mg">Посмотреть</a>
+                        <br>
+                        <a
+                            href="http://ri.eias.ru/Discl/PublicDisclosureInfo.aspx?reg=2622&razdel=Tarif&sphere=GVS&year=2023">
+                            Посмотреть</a>
                     </td>
                 </tr>
             </tbody>
@@ -292,7 +334,11 @@ export default {
         DownloadApp
     },
     data() {
-
+        return {
+            firstTable: [
+                ['']
+            ],
+        }
     },
 }
 </script>

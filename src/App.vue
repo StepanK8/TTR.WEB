@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-  <SidebarApp />
+    <SidebarApp />
 
     <div class="main__wrap">
       <div class="main__content">
@@ -14,7 +14,7 @@
         </div>
 
       </div>
-      <FooterApp/>
+      <FooterApp />
     </div>
   </div>
   <!-- <HomeView @openRequest="openRequest" /> -->
@@ -193,10 +193,10 @@ table {
   border-collapse: collapse;
   margin: 25px 0;
   border-style: solid;
-  border: 1px solid #000000;
+  border: 1px solid #9a9a9a;
 
   td {
-    border: 1px solid #000000;
+    border: 1px solid #9a9a9a;
     border-collapse: collapse;
     padding: 10px;
   }
@@ -244,8 +244,8 @@ a {
 
 }
 
-@media screen and (max-width: $mediaQuery2){
-  table{
+@media screen and (max-width: $mediaQuery2) {
+  table {
     width: 100vw;
     max-width: 100vw;
     display: block;
