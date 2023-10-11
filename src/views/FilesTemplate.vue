@@ -1,8 +1,8 @@
 <template>
     <div>
         <div v-for="file in $route.meta.files" class="file__row">
-            <a download :href="'/' + $route.meta.folderName + '/' + file">{{ file }}</a>
-            <!-- <DownloadApp /> -->
+            <DownloadApp v-if="$route.meta.style == 'buttons'" :name="file" :folderName="$route.meta.folderName" />
+            <a v-else download :href="'/' + $route.meta.folderName + '/' + file">{{ file }}</a>
         </div>
     </div>
 </template>

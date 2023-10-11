@@ -35,8 +35,7 @@
 
         <div class="base__card">
             <p>Приказ ФСТ России от 07.06.2013 N 163 «Об утверждении Регламента открытия дел об установлении регулируемых
-                цен
-                (тарифов) и отмене регулирования тарифов в сфере теплоснабжения»</p>
+                цен (тарифов) и отмене регулирования тарифов в сфере теплоснабжения»</p>
             <DownloadApp :name="files[3]" :folderName="folderName" icon="true" />
         </div>
 
@@ -196,8 +195,8 @@ export default {
 }
 
 @media screen and (max-width: $mediaQuery2) {
-    .base{
+    .base {
         width: var(--width);
-    }   
+    }
 }
 </style>

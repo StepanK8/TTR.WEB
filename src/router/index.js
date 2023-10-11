@@ -300,12 +300,12 @@ const routes = [
           title: 'Форма акта допуска',
           fullTitle: "Форма акта допуска в эксплуатацию узла учета тепловой энергии у потребителя",
           files: ['Форма Акта допуска узла учета тепловой энергии.doc'],
+          style: 'buttons',
           folderName: 'consumers',
-
         },
         name: "formConnectionConsumers",
-        
-          component: () =>
+
+        component: () =>
           import(/* webpackChunkName: "about" */ "../views/FilesTemplate.vue"),
 
       },
